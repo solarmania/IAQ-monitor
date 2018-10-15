@@ -9,10 +9,10 @@ SDS011 dust;
 Adafruit_SHT31 tempHumid = Adafruit_SHT31();
 
 const byte readCmd[] = {0xFF,0x01,0x86,0x00,0x00,0x00,0x00,0x00,0x79};
-const char* ssid     = "KT_WiFi_2G_F05D";
-const char* password = "8ei54ib512";
-const char* host = "172.30.1.5";
-const int httpPort = 8000;
+const char* ssid     = "myid";
+const char* password = "mypassword";
+const char* host = "myip";
+const int httpPort = 80;
 
 int ppm;
 
