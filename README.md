@@ -5,6 +5,7 @@ Each spot has a controller, D1 mini, and has different sensor constitutions.
   - kitchen: temperature, relative humidity, CO2, dust(PM10, PM2.5)
   - living: temperature, relative humidity, pressure
   - anbang: temperature, relative humidity, CO2
+  
 Each ambient sensors are as follows. 
   - temperature and relative humidity: SHT31
   - CO2: MH-Z19
