@@ -7,10 +7,10 @@
 Adafruit_BMP085_Unified bmp = Adafruit_BMP085_Unified(10085);
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
 
-const char* ssid     = "KT_WiFi_2G_F05D";
-const char* password = "8ei54ib512";
-const char* host = "172.30.1.5";
-const int httpPort = 8000;
+const char* ssid     = "myid";
+const char* password = "mypassword";
+const char* host = "myip";
+const int httpPort = 80;
 
 void setup() {
   Serial.begin(9600);
