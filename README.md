@@ -10,6 +10,10 @@ Each ambient sensors are as follows.
   - temperature and relative humidity: SHT31
   - CO2: MH-Z19
   - dust: SDS011
+  
 Descriptions of uploaded files are as follows.
-  - main.js: server program based on node.js
-  - 
+  - kitchen.ino, living.ino, anbang.ino: arduino sketches for each monitoring spot. 
+  - main.js: server program to retrieve sensor data based on node.js
+  - index.html, style.css, chart_kitchen.php, chart_living.php, chart_anbang.php: user interface to visualize sensor data
+  - data_kitchen.php, data_living.php, data_anbang.php; program to fetch sensor data from the database
+  - linegraph_kitchen.js, linegraph_living.js, linegraph_anbang.js: java scrips to plot linegraphs of sensor data based on Chart.js
