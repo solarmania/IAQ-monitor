@@ -10,3 +10,6 @@ Each ambient sensors are as follows.
   - temperature and relative humidity: SHT31
   - CO2: MH-Z19
   - dust: SDS011
+Descriptions of uploaded files are as follows.
+  - main.js: server program based on node.js
+  - 
