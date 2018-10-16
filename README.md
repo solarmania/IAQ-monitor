@@ -6,7 +6,7 @@ Each spot has a controller, D1 mini, and has different sensor constitutions.
   - living: temperature, relative humidity, pressure
   - anbang: temperature, relative humidity, CO2
   
-Each ambient sensors are as follows. 
+The ambient sensors are as follows. 
   - temperature and relative humidity: SHT31
   - CO2: MH-Z19
   - dust: SDS011
